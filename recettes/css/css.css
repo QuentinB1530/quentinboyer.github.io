@@ -1,0 +1,232 @@
+
+
+/****************************** GENERAL ******************************/
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Open Sans";
+	color: #3D4451;
+	padding: 0;
+	margin: 0;
+	background-color: #DCDCDC;
+}
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Courgette", "Open Sans";
+	font-size: 6em;
+	margin-top: 100px;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px #C8FFF8;
+}
+@media all and (max-width: 972px) {
+	h1 {
+		margin-top: 40px;
+	}
+}
+h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 3em;
+	margin-top: 60px;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 12px 20px #C8FFF8;
+}
+h3 {
+	text-align: left;
+	margin-left: 5%;
+	font-size: 2.25em;
+	color: #6A0002;
+	font-family: "Droid Serif";
+}
+h4 {
+	font-size: 1.875em;
+	margin-left: 5%;
+	font-weight: bold;
+	color: #5B2C10;
+	font-family: "Droid Serif";
+}
+p, li {
+	margin-left: 5%;
+	font-size: 1em;
+	list-style-type: disc;
+}
+#noms-recettes li {
+	list-style-type: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #3D4451;
+}
+#noms-recettes {
+	padding-bottom: 4em;
+}
+#recettes {
+	color: #B01F00;
+	font-size: 1em;
+}
+/********** POLICES **********/
+@import url("polices/courgette/Courgette-Regular.ttf");
+
+
+/****************************** EN-TETE ******************************/
+
+header p {
+	color: #6A0002;
+	font-family: "Droid Serif";
+	font-size: 1.75em;
+}
+nav {
+	background-color: #AC0000;
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	padding: 10px;
+}
+#logo {
+	float: left;
+	margin: 0 0 0 -10px;
+}
+#fond_page {
+	padding-top: 60px;
+	background: url(../docs_imgs/fond_page.jpg)	no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 550px;
+}
+#trait-header {
+	height: 1px;
+	width: 25%;
+	margin: -3px auto;
+	background-color: #FFFFFF;
+	box-shadow: 1px 3px 2px #DCDCDC;
+}
+/***********MENU-ACCORDEON***********/
+#menu {
+	margin: 2px 15px;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#menu li {
+   background-color:#FFFFFF;
+   margin: 0 5px;
+   padding: 0;
+   float: right;
+   text-align: center;
+   font-size: 1.4em;
+   list-style-type: none;
+}
+#menu ul {
+	font-size: 0.6em;
+}
+#menu li:hover {
+   background: #F9FF76;
+}
+#menu a {
+	display: block;
+	text-decoration: none;
+	width: 180px;
+	color: #AC0000;
+	padding: 5px;
+	font-family: "Open Sans";
+}
+#menu li ul {
+	display: none;
+}
+#menu li:hover ul {
+	display: block;
+}
+#menu li:hover ul li {
+	float: none;
+}
+#menu li ul {
+	position: absolute;
+}
+#menu li li {
+	margin: 0;
+}
+#menu li:hover ul li a:hover {
+	background: #AC0000;
+	color: #FFFFFF;
+}
+
+/****************************** BAS DE PAGE ******************************/
+
+footer {
+	background-color: #075900;
+	text-align: center;
+	width: 100%;
+	color: #FFF;
+	height: 1020px;
+}
+h5 {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 60px;
+	font-size: 2.25em;
+	font-family: "Droid Serif";
+}
+h6 {
+	font-size: 1.875em;
+	font-weight: bold;
+	font-family: "Droid Serif";
+}
+footer p {
+	margin-left: 0;
+}
+form {
+	margin: 0 auto;
+	max-width: 900px;
+}
+input, textarea, button {
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family: "Open Sans";
+	border-radius: 8px;
+}
+textarea {
+	height: 120px;
+}
+
+footer a {
+	color: #FFFFFF;
+}
+#trait-footer {
+	height: 1px;
+	width: 75%;
+	margin: 60px auto;
+	background-color: #FFF;
+}
+#copyright_icones {
+	display: flex;
+	padding: 0 10%;
+}
+#copyright {
+	width: 50%;
+	text-align: left;
+}
+#icones {
+	width: 50%;
+	text-align: right;
+}
+#icones a {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 1.3em;
+	color: #FFFFFF;
+	background-color: #075900;
+}
+#icones a:hover {
+	transform: scale(1.5);
+	transition: 0.1s;
+}
